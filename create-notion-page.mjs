@@ -1,5 +1,5 @@
 // create-notion-page.mjs
-import fetch from "node-fetch"; // `require` 대신 `import` 사용
+import fetch from "node-fetch";
 
 async function createNotionPage() {
   const notionApiUrl = "https://api.notion.com/v1/pages";
