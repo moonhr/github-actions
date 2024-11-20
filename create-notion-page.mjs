@@ -11,7 +11,7 @@ async function createNotionPage() {
     headers: {
       Authorization: `Bearer ${notionToken}`,
       "Content-Type": "application/json",
-      "Notion-Version": "2024-11-20",
+      "Notion-Version": "2022-06-28",
     },
     body: JSON.stringify({
       parent: { database_id: databaseId },
