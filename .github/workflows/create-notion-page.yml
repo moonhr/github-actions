@@ -24,4 +24,4 @@ jobs:
       - name: Create Notion Page
         env:
           NOTION_API_TOKEN: ${{ secrets.NOTION_API_TOKEN }}
-        run: node create-notion-page.js
+        run: node create-notion-page.mjs

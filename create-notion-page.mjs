@@ -1,9 +1,9 @@
-// create-notion-page.js
-const fetch = require("node-fetch");
+// create-notion-page.mjs
+import fetch from "node-fetch"; // `require` 대신 `import` 사용
 
 async function createNotionPage() {
   const notionApiUrl = "https://api.notion.com/v1/pages";
-  const databaseId = "14492ced8e5f800b979ac1d7e55e25ca"; // Notion 데이터베이스 ID를 여기에 입력하세요
+  const databaseId = "<YOUR_DATABASE_ID>"; // Notion 데이터베이스 ID를 여기에 입력하세요
   const notionToken = process.env.NOTION_API_TOKEN;
 
   const response = await fetch(notionApiUrl, {
