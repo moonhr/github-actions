@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Print Hello World  # Hello World를 출력하는 Step
-        run: echo "Hello, World from GitHub Actions!"  # 명령어 실행
+        run: echo "깃허브 액션 실행!"  # 명령어 실행
